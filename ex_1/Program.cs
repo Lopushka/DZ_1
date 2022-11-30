@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Give give me a numberA: ");
+int numderA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Give give me a numberB: ");
+int numderB = Convert.ToInt32(Console.ReadLine());
+int MaxNamder;
+int MinNamder;
+MaxNamder = Math.Max(numderA, numderB);
+Console.WriteLine($"Max:{MaxNamder}");
+MinNamder = Math.Min(numderA, numderB);
+Console.WriteLine($"Min:{MinNamder}");
