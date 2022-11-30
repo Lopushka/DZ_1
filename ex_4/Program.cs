@@ -31,5 +31,3 @@ for (int even = 1; even <= numderA; even++)
 
 
 
-
-   
